@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SearchResultSuite" parallel="none">
+  <test name="SearchResultFilterTABTest" preserve-order="true">
+    <classes>
+   
+      <class name="com.futurebazaar.suites.SearchResultPageTest.SearchResultPage_TC1"/>
+    </classes>
+  </test>
+    <test name="SearchResultOptionsTest" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.SearchResultPageTest.SearchResultPage_TC2"/>
+   
+    </classes>
+  </test>
+  
+</suite>

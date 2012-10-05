@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoginLogOutSuite" parallel="none">
+  <test name="LoginLogoutTest" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.LoginLogOutTest.LoginLogOutTest_TC1"/>
+    </classes>
+  </test>
+  <test name="FacebookLoginLogoutTest" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.LoginLogOutTest.LoginLogOutTest_TC2"/>
+    </classes>
+  </test>
+   <test name="LoginLogoutMyAccountPageTest" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.LoginLogOutTest.LoginLogOutTest_TC3"/>
+    </classes>
+  </test>
+  
+   <test name="ForgotPasswordLinkCheckTest" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.LoginLogOutTest.LoginLogOutTest_TC4"/>
+    </classes>
+  </test>
+</suite>

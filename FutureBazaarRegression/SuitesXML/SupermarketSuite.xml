@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuperMarketSuite" parallel="none">
+   <test name="SupermarketInnerLinkTest" preserve-order="true">
+    <classes>
+       <class name="com.futurebazaar.suites.SupermarketTest.Supermarket_TC1"/>
+    </classes>
+  </test>
+   <test name="SupermarketOuterLinkDDTest" preserve-order="true">
+    <classes>
+   <class name="com.futurebazaar.suites.SupermarketTest.Supermarket_TC2"/>
+       </classes>
+  </test>
+  
+</suite>

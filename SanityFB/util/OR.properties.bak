@@ -1,0 +1,93 @@
+# Home Page OPtions 
+# Future Bazaar Logo
+FUTUREBAZAAR_LOGO_ID=logo
+CAROUSEL_FIRST_LINK=1
+CAROUSEL_SECOND_LINK=2
+CAROUSEL_THIRD_LINK=3
+CART_ITEM_CSS=div.cart_items
+
+PROMOTION_ID=promotion_offer_home_banner
+
+# My Account Link/ Log In - Log Out
+MY_ACCOUNT_LINK=My Account
+USER_NAME_ID=signin_username
+USER_PASSWORD_ID=signin_password
+USER_LOGIN_ID=signin_submit
+LOG_OUT_ID=sout
+
+#Text for log out verification
+LOG_OUT_VERIFICATION_TEXT_XPATH=html/body/div[3]/div/div[1]/div[1]
+#Text for log IN verification
+LOGIN_VERIFICATION_TEXT_CSS=li.mart2 > span
+
+HOME_FIRST_PRODUCT_LINK_XPATH=//div[@id='home']/div[2]/div[2]/ul/li/div/h3/a
+# My Account Link Options
+MY_ACCOUNT_MY_ORDERS_LINK=My Orders
+MY_ORDERS_VERIFICATION_TEXT_XPATH=.//*[@id='my_account']/div[2]/div/div[1]
+
+MY_SUBCRIPTIONS_LINK=My Subcriptions
+MY_SUBSCRIPTION_VERIFICATION_TEXT_XPATH=.//*[@id='my_account']/div[2]/div/div/div[1]
+
+MY_PROFILE_XPATH =//div[@id='my_account']/div/ul/li[4]/a
+MY_PROFILE_VERIFICATION_TEXT_XPATH=.//*[@id='my_account']/div[2]/div/div/div[1]
+
+ADDRESS_BOOK_XPATH =//div[@id='my_account']/div/ul/li[5]/a
+MY_ADDRESS_VERIFICATION_TEXT_XPATH=.//*[@id='my_account']/div[2]/div/div/div[1]
+
+MANAGE_PASSWORD_XPATH =//div[@id='my_account']/div/ul/li[6]/a
+MANAGE_PASSWORD_VERIFICATION_TEXT_XPATH=.//*[@id='my_account']/div[2]/div/form/div[2]/div[1]
+
+MY_WISHLIST=#tab_wishlist > a
+MY_WISHLIST_VERIFICATION_TEXT_XPATH=.//*[@id='my_account']/div[2]/div/p[1]
+
+TRACK_ORDER_LINK=Track Order
+TRACK_ORDER_VERIFICATION_TEXT_XPATH=.//*[@id='content']/div/div/div[1]
+
+#Login with the facebook Account from my account link
+FACEBOOK_LOGINLINK_CLASS=fb-login-button
+FACEBOOK_USERID_ID=email
+FACEBOOK_PASSWORD_ID=pass
+FACEBOOK_LOGIN_XPATH=.//*[@id='ud7wo3_2']
+FACEBOOK_LOGOUT_CSS=#f_logout > img
+FACEBOOK_LOGIN_NAME=login
+
+# Home Page Menu Headers
+TODAYS_DEALS=//div[@id='menu']/ul/li/a/div
+POPULAR_DEALS=//div[@id='menu']/ul/li[2]/a/div
+NEW_ARRIVALS=//div[@id='menu']/ul/li[3]/a/div
+IE_ARRIVALS_CSS=//div[@id='menu']/ul/li[4]/a/div
+gifts_xpath=//div[@id='menu']/ul/li[4]/a/div
+EUREKA_CSS=//div[@id='menu']/ul/li[5]/a/div
+BULK_ORDERS_XPATH=//div[@id='menu']/ul/li[5]/a/div
+CLEARANCE=//div[@id='menu']/ul/li[7]/a/div
+PROMOTIONS_XPATH=//div[@id='menu']/ul/li[6]/a/div
+#Verification xpath for Todays deal  
+PAGE_VERIFICATION_TEXT_FOR_TODAYS_DEAL_XPATH=.//*[@id='breadcrumb']
+PAGE_VERIFICATION_TEXT_FOR_BULK_ORDERS=.//*[@id='content']/div/div
+PAGE_VERIFICATION_TEXT_FOR_PROMOTIONS=.//*[@id='content']
+# Verification xpath used for all the menu headers in homepage
+PAGE_VERIFICATION_TEXT_XPATH=.//*[@id='breadcrumb']/div
+
+# Product Purchase
+SEARCH_WINDOW_ID=id_q
+SEARCH_ID=go
+SELECT_FIRST_ITEM=//li[@id='grid_page_1']/div/h3/a
+HOME_THIRD_PRODUCT_LINK_XPATH=//div[@id='home']/div[2]/div[2]/ul/li[4]/div/h3/a
+HOME_SECOND_PRODUCT_LINK_XPATH=//div[@id='home']/div[2]/div[2]/ul/li[2]/div/h3/a
+BUY_NOW=//div[2]/div/button
+continue_name=Proceed
+PROCEED_ID=proceed
+MAKE_PAYMENT_ID=proceed_to_pay
+ADD_MORE_ITEMS_LINK=Add more items
+
+PAYMENT_PAGE_VERIFICATION_ID=payment_mode_container
+CASH_ONDELIVERY_BUTTON_XPATH.//*[@id='verify'] 
+#Coupons
+COUPON_TEXTFIELD_ID=coupon_code
+APPLY_COUPON_ID=apply_fb_coupon
+COUPON_APPLY_MESSAGE_ID=coupon_apply_msg
+COUPON_REMOVE_CSS=span.fb > form > button.linkButton
+# Payment process Log in 
+LOG_IN_BUTTON_USER_ID=defaultActionButton
+USER_LOG_IN_ID=mobileLabel
+USER_LOG_PASSWORD_ID=userPassword

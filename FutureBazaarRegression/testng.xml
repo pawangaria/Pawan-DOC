@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mysuite">
+<listeners>
+    <listener class-name="com.futurebazaar.testng.listener.TestsListenerAdapter" />
+</listeners>
+  <suite-files>
+   <suite-file path="./SuitesXML/PaymentPageSuite.xml" />
+   <suite-file path="./SuitesXML/MyAccountSuite.xml"/>  
+     <suite-file path="./SuitesXML/HomePageSuite.xml"/>  
+     <suite-file path="./SuitesXML/SearchResultPageSuite.xml"/>
+     <suite-file path="./SuitesXML/ProductDescPageSuite.xml"/>
+     <suite-file path="./SuitesXML/PageFooterSuite.xml"/>
+      <suite-file path="./SuitesXML/AddToCartSuite.xml"/>
+       <suite-file path="./SuitesXML/HomeAndLivingSuite.xml"/>
+     <suite-file path="./SuitesXML/FashionSuite.xml"/>
+      <suite-file path="./SuitesXML/SupermarketSuite.xml"/>
+       <suite-file path="./SuitesXML/KidsAndBabiesSuite.xml"/>
+        <suite-file path="./SuitesXML/ElectronicsSuite.xml"/>
+         <suite-file path="./SuitesXML/NewArrivalSuite.xml"/>
+          <suite-file path="./SuitesXML/PopularSuite.xml"/>
+           <suite-file path="./SuitesXML/GiftVouchersSuite.xml"/>
+             <suite-file path="./SuitesXML/GiftsSuite.xml"/>
+      <suite-file path="./SuitesXML/LoginlogoutSuite.xml"/>
+            <suite-file path="./SuitesXML/TodaysDealsSuite.xml"/>
+  </suite-files>
+</suite>

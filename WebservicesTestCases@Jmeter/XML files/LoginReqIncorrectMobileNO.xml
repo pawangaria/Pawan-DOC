@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<loginRequest xmlns="http://www.fb.com/platform/auth/1.0.0">
+<!-- In this wrong Mobile No is provided on the user name like 8 digits or 12 digits in the username field -->
+<username>9898989</username>
+<password>sujay</password>
+</loginRequest>
+

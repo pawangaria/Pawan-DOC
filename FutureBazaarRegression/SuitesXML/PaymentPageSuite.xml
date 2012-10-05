@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PaymentPageTest" parallel="none">
+   
+  <test name="PaymentTypesCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PaymentPageTest.Payment_TC1"/>
+    </classes>
+  </test>
+  <test name="CreditCardCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PaymentPageTest.Payment_TC2"/>
+    </classes>
+  </test>
+  <test name="EMICreditCardCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PaymentPageTest.Payment_TC3"/>
+    </classes>
+  </test>
+  <test name="DebitCreditCardCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PaymentPageTest.Payment_TC4"/>
+    </classes>
+  </test>
+    
+  <test name="CashONDeliveryCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PaymentPageTest.Payment_TC6"/>
+    </classes>
+  </test>
+  
+  <test name="ChequeoptionCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PaymentPageTest.Payment_TC7"/>
+    </classes>
+  </test>
+   <test name="NetBankingCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PaymentPageTest.Payment_TC8"/>
+    </classes>
+  </test>
+  <test name="CashOptionCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PaymentPageTest.Payment_TC5"/>
+    </classes>
+  </test>
+  <test name="CouponCodeCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PaymentPageTest.Payment_TC9"/>
+    </classes>
+  </test>
+  <!-- <test name="QuitingtheDriver" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PaymentPageTest.SuitedriverQuit"/>
+    </classes>
+  </test> -->
+  
+</suite>

@@ -1,0 +1,543 @@
+#- XPATHS, IDS, LinksText which will be used in the project
+#Review System(PDP_TC6)
+SEARCH_DD_PRODCUTNAME_XPATH=//div[3]/div/div[1]/div[2]/div[1]/div/a/div[1]/div[2]
+PRODUCTNAME_ON_CARTPAGE_XPATH=.//*[@id='cart']/tbody/tr[2]/td[2]/span
+TODAYS_DEALS_ADDTOCART_ID=quick_add_to_cart
+TODAYS_DEALS_PRODUCT_IMAGE_XPATH=.//*[@id='menu']/ul[1]/li[1]/div/div/div[1]/div[1]/a/img
+TODAYS_DEALS_DROPDOWN_XPATH=.//*[@id='menu']/ul[1]/li[1]/a/div
+TODAYS_DEALS_PRODUCTNAME_XPATH=.//*[@id='menu']/ul[1]/li[1]/div/div/div[1]/div[2]/div/a
+WRITE_REVIEW_LINK_XPATH=.//*[@id='row1']/div[3]/form/input
+REVIEW_HEADER_XPATH=//*[@id='content']/div[6]
+PRODUCT_ON_REVIEWPAGE=.//*[@id='content']/div/div[2]/div/div[2]/div[1]/a
+REVIEW_TITLE_TEXTBOX_ID=id_title
+YOUR_REVIEW_TEXTBOX_ID=id_review
+SUBMIT_REVIEW_BUTTON_ID=.//*[@id='Review']
+RATING_STAR_XPATH=.//*[@id='id_rating_2']/a
+REVIEW_THANKYOU_NOTE_XPATH=.//*[@id='content']/div/div[1]/div[1]
+View_Product_details_link_Xpath=.//*[@id='content']/div/div[5]/a
+CANCEL_LINK=Cancel
+
+#Check Delivery PDP TC7
+CHECKDELIVERY_LINK=Check delivery date for your pincode
+PINCODE_BOX_XPATH=//input[@id='pincode']
+SUBMIT_BUTTON_CHECK_XPATH=//button[@id='check']
+RESPONSE_MESSAGE_ID=response_message
+POPUP_CLOSE_XPATH=.//*[@id='lightbox']/div[2]
+COD_BUYNOW_XPATH=Buy Now \u203A
+PAYBACK_REDEEM_XPATH=Redeem Now \u203A
+EMI_AVAIL_XPATH=Avail Now \u203A
+#//li[2]/div[2]/div/a
+
+###
+# Home Page options 
+# Future Bazaar Logo
+FUTUREBAZAAR_LOGO_ID=logo
+PROMOTION_ID=promotion_offer_home_banner
+FUTUREBAZAAR_HEADER_CLASS=header
+
+###########################################################
+MY_ACCOUNT_LINK =My Account
+SIGN_UP_ID =header_signin_signup
+SIGN_OUT_ID=sout
+WELCOME_TEXT_CSS=li.mart2 > span
+
+# Home Page suite 
+
+CAROUSEL_SElECTOR_CLASS=slider_pagination
+CAROUSEL_SLIDES_DISPLAYED_ID=slides
+CAROUSEL_IMAGE_CLICK_XPATH=//div[@id='slides']
+TODAY'SDEALS_NO_OF_ITEM= 5
+
+#Test case 8 => Bulk Orders
+BULK_ORDERS_LINK_XPATH=//div[@id='menu']/ul/li[6]/a/div
+BULK_ORDERS_PAGE_VERIFICATION_XPATH=.//*[@id='content']/div
+BULK_NAME_ID=id_name
+BULK_EMAIL_ID=id_email
+BULK_PHONENO_ID=id_phone
+BULK_ORGANIZATION_ID=id_organization
+BULK_REQUIREMENTS_ID=id_requirement
+BULK_SUBMIT_BUTTON_CSS=div.bulk_orders > form > button[type="submit"]
+#My Account Drop down Items
+
+# Search Result Page suite verification 
+#Search result Page Link (After Item Search) 
+DISCOUNT_LINK =Discount
+PRICE_LINK=Price
+POP_LINK=Popular
+#Searched Item number
+SEARCH_RESULT_PAGE_VERFICATION_ID=breadcrumb
+SEARCH_ITEM_NO=.//*[@id='filter_panel']/div[1]/span[2]
+SEARCHED_KEYWORD=h1
+PREVIOUS_LINK=div.pagination.left > a
+NEXT_LINK=//div[@id='srp_content']/div[5]/div/a[11]
+
+NEXT_BUTTON_LINK=Next
+PREVIOUS_BUTTON_LINK=Prev
+
+#Search fail
+SEARCH_FAIL=//div[@id='content']/div[2]
+
+###################### {Log In LOg Out Suite}########
+#Test case to Test Facebook log in log out / My account User Log in log out.
+
+#Login with the facebook Account from my account link
+FACEBOOK_LOGINLINK_CLASS=fb-login-button
+FACEBOOK_USERID_ID=email
+FACEBOOK_PASSWORD_ID=pass
+FACEBOOK_LOGIN_XPATH=.//*[@id='ud7wo3_2']
+FACEBOOK_LOGOUT_CSS=#f_logout > img
+
+FACEBOOK_HOME_LOGIN_XPATH=.//*[@id='home']/div[2]/div[1]/div[2]/div/a/span
+#facebook login from the home page and other options are same as login from my account 
+FACEBOOK_LOGIN_NAME=login
+
+#Login from the account link
+USER_NAME_ID=signin_username
+USER_PASSWORD_ID=signin_password
+USER_LOGIN_ID=signin_submit
+
+# Login from the signUP link from my Account
+ACCOUNT_USER_NAME_ID =username
+ACCOUNT_PASSWORD_ID =password
+ACCOUNT_LOGIN_ID =login
+
+#Login at the time of shopping(login guest flow)
+GUEST_USER_NAME_ID=mobileLabel
+GUEST_USER_PASSWORD_ID=userPassword
+GUEST_LOGIN_XPATH=//input[@value='Continue']
+GUEST_ALREADY_CUSTOMER_CHECKBOX_ID=AlreadyCustomer
+#New user registration in Guest flow or at the time of shopping.
+GUEST_NEW_USER_ID=username
+GUEST_NEW_USER_PASSWORD_ID=password
+GUEST_NEW_USER_CONFIRM_PASSWORD_ID=cpassword
+GUEST_NEW_LOGIN_ID=login
+
+#Forgot Password link
+FORGOT_PASSWORD_ID=signin_forgotpassword
+FORGOT_EMAIL_NAME=info
+FORGOT_SEND_INST_CSS=button.btn.btn_send_inst
+ACCOUNT_FORGOT_PASSWORD_ID=forget_password
+FORGOT_PASSWORD_PAGE_VERIFICATION_XPATH=.//*[@id='content']/div
+#New User Registration from account link 
+NEW_USER_ID=username1
+NEW_USER_PASSWORD_XPATH=//div[2]/form/div[2]/input
+NEW_USER_PASSWORD_CONFIRMATION_ID=cpassword
+NEW_USER_SIGN_UP_XPATH=//form[@id='form_signin']/div[4]/input
+
+##################################################################
+## HOME PAGE Elements
+TODAYS_DEALS_HOME_XPATH=.//*[@id='menu']/ul[1]/li[1]/a/div
+
+
+# Item clean up
+
+MY_SHOPPING_SACK_CSS=div.cart_items
+ITEM_REMOVE_CSS=button.linkButton
+CART_ITEM_CLASS=cart_items
+
+###############################################################
+TRACK_ORDER=Track Order
+#############################################################
+#purchasing a Product
+SEARCH_FIELD_ID=id_q
+SEARCH_GO_ID=go
+
+############################################################
+#Product Details Page(Quick View and Product Description Page)--Used in the PDP Test Suite
+#Quick View
+HOME_PAGE_VERIFICATION_ID=wrapper
+HOME_FIRST_PRODUCT_LINK_XPATH=//div[@id='home']/div[2]/div[2]/ul/li/div/h3/a
+HOME_FIRST_PRODUCT_IMAGE_XPATH=.//*[@id='home']/div[2]/div[2]/ul/li[1]/div/div[1]/a[1]/img
+HOME_FIRST_PRODUCT_QUICK_VIEW_XPATH=.//*[@id='home']/div[2]/div[2]/ul/li[1]/div/div[1]/a[2]/span
+
+HOME_SECOND_PRODUCT_LINK_XPATH=//div[@id='home']/div[2]/div[2]/ul/li[2]/div/h3/a
+
+QUICK_VIEW_VERIFICATION_XPATH=.//*[@id='cart_popup']/div
+QUICK_VIEW_VERIFICATION_PRODUCT_LINK_XPATH=.//*[@id='cart_popup']/div/div[2]/h3
+#QUICK_VIEW_ADD_TO_CART_BUTTON_XPATH=//form[@id='quick_add_to_cart_form']/button
+QUICK_VIEW_ADD_TO_CART_BUTTON_XPATH=//button[contains(@id,'add_product_to_cart')]
+QUICK_VIEW_READ_FULL_DESC_LINK=Read Full Product Details »
+PDP_PAGE_VERIFICATION_XPATH=.//*[@id='content']
+PDP_PAGE_PRODUCT_LINK_TEXT_VERIFCATION_XPATH=.//*[@id='product']/div/div/div[2]/h1
+
+#Quick View from Search Result page(Test case 2 in PDP suite)
+SEARCH_FIRST_PRODUCT_LINK_XPATH=//li[@id='grid_page_1']/div/h3/a
+SEARCH_FIRST_PRODUCT_IMAGE_XPATH=.//*[@id='grid_page_1']/div/div[1]/a[1]/img
+SEARCH_FIRST_PRODUCT_QUICK_VIEW_XPATH=.//*[@id='grid_page_1']/div/div[1]/a[2]/span
+SEARCH_QUICK_VIEW_VERIFICATION_XPATH=.//*[@id='cart_popup']/div
+SEARCH_QUICK_VIEW_VERIFICATION_PRODUCT_LINK_XPATH=.//*[@id='cart_popup']/div/div[2]/h3/a
+SEARCH_QUICK_VIEW_READ_FULL_DESC_LINK=Read Full Product Details »
+
+# PDP page links
+PRODUCT_BRAND_LINK_XPATH=//div[@id='product']/div/div/div[2]/div/span[2]/a
+SEARCH_BRAND_TEXT_VERIFICATION_XPATH=.//*[@id='breadcrumb']/div
+QUANTITY_DROPDOWN_NAME=qty
+
+
+# Navigation to PDP page (Testcase 4)
+FIRST_PORDUCTIMAGE_HP_XPATH=//div[@id='home']/div[2]/div[2]/ul/li/div/div/a/img
+FIRST_PRODUCTNAME_HP_XPATH=//div[@id='home']/div[2]/div[2]/ul/li/div/h3/a
+FIRST_PRODUCTIMAGE_SRP_XPATH=//li[@id='grid_page_1']/div/div/a/img
+FIRST_PRODUCTNAME_SRP_XPATH=//h3/a
+PRODUCTNAME_ON_PDP_XPATH=//div[@id='product']/div/div/div[2]/h1
+TODAY_DEAL_IMG_WAIT_XPATH=/html/body/div[5]/div/div/div/div/div[2]/div[2]/ul/li/div/div/a/img
+PRODUCT_IMG_PDP_XPATH=//*[@id="display_img"]
+SRP_FIRSTPRODUCT_IMG_WAIT_XPATH=/html/body/div[5]/div/div/div/div[3]/div[3]/ul/li/div/div/a/img
+
+# SIMILAR PRODUCTS Test case in the PDP page.(Contains 5 Products links)
+SIMAILAR_FIRST_LINK_XPATH=.//*[@id='content']/div[4]/div/div[4]/div[1]/div[1]/div[1]/a
+SIMAILAR_FIRST_IMAGE_XPATH=.//*[@id='content']/div[4]/div/div[4]/div[1]/a/img
+
+# PDP PAge
+Product_Description_CSS=li.pdp_tab1
+KEY_FEATURES_CSS=li.pdp_tab2
+
+SELECT_FIRST_ITEM_XPATH=//li[@id='grid_page_1']/div/div/a/img
+SELECT_SECOND_ITEM=
+PRODUCTDETAILS_BUY_NOW_XPATH=//div[2]/div/button
+PROCEED_TOSHIPPING_DETAILS_NAME=Proceed
+PROCEED_TO_PAYAMENT_PAGE_ID=proceed
+PAYMENt_MAKE_PAYMENT_BUTTON_ID=proceed_to_pay
+SELECT_DEFAULT_SHIPPING_XPATH=.//*[@id='delivery_table']/div[1]/div[2]/div/p[1]/input
+
+#########################################################
+#Payment Details Page
+PAYMENT_TYPE_CREDITCARD_XPATH=.//*[@id='content']/div[2]/div[1]/form/div/div[1]/div[1]/div/ul/li[1]
+PAYMENT_TYPE_DEBITCARD_XPATH=.//*[@id='content']/div[2]/div[1]/form/div/div[1]/div[1]/div/ul/li[2]
+PAYMENT_TYPE_CREDITCARDEMI_XPATH=.//*[@id='content']/div[2]/div[1]/form/div/div[1]/div[1]/div/ul/li[3]
+PAYMENT_TYPE_CASH_XPATH=.//*[@id='content']/div[2]/div[1]/form/div/div[1]/div[1]/div/ul/li[6]
+PAYMENT_TYPE_CASHONDELIVERY_XPATH=.//*[@id='content']/div[2]/div[1]/form/div/div[1]/div[1]/div/ul/li[4]
+PAYMENT_TYPE_PAYBYPAYBACK_XPATH=//div[@id='content']/div[2]/div/form/div/div/div[2]/div/ul/li[8]
+PAYMENT_TYPE_CHEQYE_XPATH=.//*[@id='content']/div[2]/div[1]/form/div/div[1]/div[1]/div/ul/li[7]
+PAYMENT_TYPE_BILLINGINFO_CSS=#delivery_table > tbody > tr > td > div.fb
+
+PAYMENT_PAGE_VERIFICATION_XPATH=.//*[@id='content']/div[2]/div[1]
+PAYMENT_PAGE_AFTERCLICK_VERIFICATION_XPATH=.//*[@id='content']/div[2]/div[1]/form/div/div[1]/div[2]
+PAYMENT_DEATILS_VERIFICATION_XPATH=.//*[@id='tbl_book']
+
+#Apply PAYBACK Coupons on Payment Page
+COUPONS_VERIFICATION=.//*[@id='content']/div[2]/div[1]/div[3]/div
+COUPON_CODE_TEXTFIELD_ID=coupon_code
+APPLY_FB_COUPON_ID=apply_fb_coupon
+ERROR_APPLY_MESSAGE_ID=coupon_apply_msg
+PAYBACK_PAGE_VERIFICATION_TEXT_XPATH=.//*[@id='payment_mode_container']/div/ul/li[1]
+REMOVE_PAYBACK_button_CSS=button.linkButton
+
+#Credit Card
+CREDIT_CARD_CARDTYPE_VISA_name=cardtype
+CREDIT_CARD_CARDTYPE_MASTERCARD_XPATH=(//input[@name='cardtype'])[2]
+CREDIT_CARD_NUMBER_ID=id_card_no
+CREDIT_CARD_EXPIRATION_YEAR_ID=id_exp_year
+CREDIT_CARD_EXPIRATION_MONTH_ID=id_exp_month
+CREDIT_CARD_CVV_ID=id_cvv
+CREDIT_CARD_NAME_ID=id_name_on_card
+CREDIT_CARD_CVV_ID=id_cvv
+CREDIT_CARD_SHIPPING_ADD_CHECKBOX_ID=shipping_address_checkbox
+##card type static text.
+CREDIT_CARD_CSS=td.ra.fb 
+
+#Debit Card
+DEBIT_CARD_BANK_ID=id_issuingBank
+DEBIT_CARD_CARDNO_ID=id_card_no
+DEBIT_CARD_NAME_ID=id_name_on_card
+DEBIT_CARD_EXPIRATION_MONTH_ID=id_exp_month
+DEBIT_CARD_EXPIRATION_YEAR_ID=id_exp_year
+DEBIT_CARD_CVV_ID=id_cvv
+## debit card static texts
+DEBIT_CARD_ISSUING_BANK_CSS=span.label
+##############
+##Credit card EMI 
+
+CREDIT_CARD_EMI_HDFC_xpath=(//input[@name='bank'])[2]
+CREDIT_CARD_EMI_HSBC_XPATH=(//input[@name='bank'])[3]
+CREDIT_CARD_EMI_ICICI_XPATH=(//input[@name='bank'])[4]
+CREDIT_CARD_EMI_KOTAK_XPATH=(//input[@name='bank'])[5]
+CREDIT_CARD_EMI_SBI_XPATH=(//input[@name='bank'])[6]
+CREDIT_CARD_EMI_AXIS_name=bank
+
+EMI_PAGE_NOTE_VERIFICATION_XPATH=.//*[@id='payment_mode_container']/div[2]
+CREDIT_CARD_EMI_EMI_PLANS_3MONTH_NAME=emi_plan
+CREDIT_CARD_EMI_EMI_PLANS_6MONTH_XPATH=//td[@id='emi_options']/div[2]/p/input
+CREDIT_CARD_EMI_EMI_PLANS_9MONTH_XPATH=//td[@id='emi_options']/div[3]/p/input
+#HDFC option
+
+CREDIT_CARD_EMI_HDFC_CARD_MASTER_XPATH=//input[@name='cardtype' and @value='master-card']
+CREDIT_CARD_EMI_HDFC_CARD_VISA_NAME=cardtype
+CREDIT_CARD_EMI_HDFC_CARDNO_ID=id_card_no
+CREDIT_CARD_EMI_HDFC_EXPIRATION_MONTH_ID=id_exp_month
+CREDIT_CARD_EMI_HDFC_EXPIRATION_YEAR_ID=id_exp_year
+CREDIT_CARD_EMI_HDFC_CVV_ID=id_cvv
+CREDIT_CARD_EMI_HDFC_NAME_ID=id_name_on_card
+
+#ICICI option
+####################
+
+# Cash Payment
+## Radio button options
+
+CASH_OPTION_DROPDOWN_ID=id_payment_group_member
+
+# Net Banking
+NETBANKING_NAME_ID=bank
+
+#Cash on delivery option
+CASH_ON_DELIVERY_PHONENO_ID=phone
+CASH_ON_DELIVERY_VERIFY_BUTTON_ID=verify
+CASH_ON_DELIVERY_VERIFY_TEXT=.//*[@id='phone_verification']/p
+CASH_ON_DELIVERY_SMS_TEXT_VERIFY_XPATH=.//*[@id='zip_dial_verification']/p[1]
+CASH_ON_DELIVERY_CLICKHERE_VERIFICATION_TEXT_XPATH=.//*[@id='zip_dial_verification']/p[5]
+#FACY Frame for Cash option
+CASH_CLICK_HERE_LINK=Click here
+CASH_FRAME_LOCATOR_LINK=outlet locator
+CASH_FRAME_CLOSE_ID=fancybox-close
+
+
+# {{{{{ MY ACCOUNT Suite  }}}}}}}
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+# My Account Link suite
+MY_ACCOUNT_Links_CLASS=signin_form myaccount_links
+MY_ACCOUNT_MY_ORDERS_LINK=My Orders
+MY_ACCOUNT_MY_SUBSCRIPTION_LINK=My Subscriptions
+MY_ACCOUNT_MY_PROFILE_LINK=My Profile
+MY_ACCOUNT_MY_ADDRESSBOOK_LINK=Address Book
+MY_ACCOUNT_MY_MANAGEPASSWORD_LINK=Manage Password
+
+## MY Account Page
+MY_ACCOUNT_TAB_CLASS=tabs_wrapper
+MY_SUBCRIPTIONS_XPATH=//div[@id='my_account']/div/ul/li[2]/a
+MY_PROFILE_XPATH =//div[@id='my_account']/div/ul/li[3]/a
+ADDRESS_BOOK_XPATH =//div[@id='my_account']/div/ul/li[4]/a
+MANAGE_PASSWORD_XPATH =//div[@id='my_account']/div/ul/li[5]/a
+ # My Account Link Options
+MY_ACCOUNT_MY_ORDERS_LINK=My Orders
+MY_ORDERS_VERIFICATION_TEXT_XPATH=.//*[@id='my_account']/div[2]/div/div[1]
+
+MY_SUBCRIPTIONS_LINK=My Subcriptions
+MY_SUBSCRIPTION_VERIFICATION_TEXT_XPATH=.//*[@id='my_account']/div[2]/div/div/div[1]
+
+MY_PROFILE_XPATH =//div[@id='my_account']/div/ul/li[4]/a
+MY_PROFILE_VERIFICATION_TEXT_XPATH=.//*[@id='my_account']/div[2]/div/div/div[1]
+
+ADDRESS_BOOK_XPATH =//div[@id='my_account']/div/ul/li[5]/a
+MY_ADDRESS_VERIFICATION_TEXT_XPATH=.//*[@id='my_account']/div[2]/div/div/div[1]
+
+MANAGE_PASSWORD_XPATH =//div[@id='my_account']/div/ul/li[6]/a
+MANAGE_PASSWORD_VERIFICATION_TEXT_XPATH=.//*[@id='my_account']/div[2]/div/form/div[2]/div[1]
+
+MY_WISHLIST=#tab_wishlist > a
+MY_WISHLIST_VERIFICATION_TEXT_XPATH=.//*[@id='my_account']/div[2]/div/p[1]
+WISHLIST_BLOCK_XAPTH=.//*[@id='my_account']/div[2]/div/div[2]
+
+# Trek Order Test Case
+TRACK_ORDER_LINK=Track Order
+TRACK_ORDER_VERIFICATION_TEXT_XPATH=.//*[@id='content']/div/div/div[1]
+TRACK_ORDER_INPUT_OREDERno_TEXT_NAME=order_id
+TRACK_ORDER_INPUT_EMAil_TEXT_CSS=div.marb5 > input[name="username"]
+
+# Order No verifcation on My account
+MY_ACCOUNT_ORDERid_VERIFICATION_TEXT_XPATH=.//*[@id='my_account']/div/div/div/div[1]/div[1]/div[1] 
+TRACK_ORDER_BUTTON_CSS=button.btn.btn_track_order
+MY_ACCOUNT_VERIFICATION_TEXT_XPATH=.//*[@id='my_account']/h1
+
+# Never Miss a Deal Check
+NEVER_MISS_DEAL_LINK=Never Miss a Deal
+NEVER_MISS_DEAL_EMAIL_TEXT_ID=deal_email
+NEVER_MISS_DEAL_SUBSCRIBENOW_BUTTON_ID=deal_subscription
+NEVER_MISS_DEAL_POP_UP_VERIFICATION_XPATH=.//*[@id='lightbox']/div[3]/div/h1
+ #Text for log out verification
+LOG_OUT_VERIFICATION_TEXT_XPATH=html/body/div[3]/div/div[1]/div[1]
+#Text for log IN verification
+LOGIN_VERIFICATION_TEXT_CSS=li.mart2 > span
+ 
+############### {{{  FutureBazaar Footer at all the Pages}}}######
+# These Test cases are present in the PageFooterSuite.......
+
+ #Wishlist
+ADD_WISHLIST_LINK_XPATH=//div[@id='product']/div/div/div[2]/div[2]/div[2]/div/form/input[4]
+WISHLIST_TWITTER_ICON_XPATH=//a[@id='b']/span
+WISHLIST_FB_ICON_XPATH=//div[@id='my_account']/div[2]/div/div[2]/form/table/tbody/tr[3]/td[2]/a/span/span
+WISHLIST_CHECKBOX_ID=visibility
+WISHLIST_PRODUCT_IMAGE_XPATH=//td/a/img
+WISHLIST_ADDTOCART_PAGE_ID=add_product_to_cart_form
+WISHLIST_REMOVE_ITEM_XPATH=button.linkButton
+#futurebazaar footer delas category link
+DEALS_HOME_LIVING_XPATH=//a[contains(text(),'Home & Living')][8]
+DEALS_FASHION_XPATH=//a[contains(text(),'Fashion')][4]
+DEALS_ELECTRONICS_XPATH=(//a[contains(text(),'Electronics')])[3]
+DEALS_ESSENTIALS_XPATH=(//a[contains(text(),'Essentials')])[3]
+DEALS_GIFTS_IDEAS_XPATH=(//a[contains(text(),'Gifts & Ideas')])[2]
+DEALS_GIFT_VOUCHER_LINK=(//a[contains(text(),'Gift Voucher')])[4]
+
+Base_class_deal_footer=footer_list
+
+FOOTER_BREADCRUMB_LINK=.//*[@id='breadcrumb']/div
+
+#Breadcrumb link for footerdeal link used in footerdeal class
+FOOTER_BREADCRUMB_LINK=.//*[@id='breadcrumb']/div
+#//div[@id='breadcrumb']/div
+#This is filter panel xpath used in 'footerdeal' class file for page verification
+VERIFICATION_FILTERPANEL_XPATH=//*[@id='content']
+
+#common link for verifying page excluding blog link(used in aboutlink class file)
+PAGE_VERIFICATION_COMMON_FOOTER_XPATH=.//*[@id='content']/div[1]/div[1]/h1
+
+#This is contnet verifcation link used in aboutlink class file
+#CONTENT_VERIFICATION_ABOUTLINK_XPATH=.//*[@id='content']/div
+CONTENT_VERIFICATION_ABOUTLINK_XPATH=.//*[@id='content']/div[1]
+CONTENT_VERIFICATION_CONTACT_USLINK_XPATH=.//*[@id='content']/div/h1
+PAGE_VERIFICATION_JOBS_XPATH=//*[@id='content']/div/div[1]/h1
+
+T&C_LINK=Terms & Conditions
+CANCELLATION_POLICY_LINK=Cancellation Policy
+RETURN_POLICY_LINK=Return Policy
+SITEMAP_LINK=Sitemap
+BLOG_LINK=Blog
+CONTACT_US_LINK=Contact Us
+ABOUT_US_LINK=About Us
+JOBS_LINK=Jobs
+
+#strings required for verifying the respective page 
+String_Cancellation_Policy=Cancellation Policy
+String_Return_Policy=15 Days Easy Return
+String_Sitemap=All Categories
+String_Terms&Conditions=Terms & Conditions of Use
+String_Aboutus=ABOUT US
+String_Contactus=Contact Us
+
+#futurebazaar Trust link
+FB_TRUST_COD_XPATH=.//a[contains(text(),'Cash on Delivery*')]
+FB_TRUST_RETURN_XPATH=.//a[contains(text(),'Easy Returns')]
+FB_TRUST_FIANANCE_XPATH=.//a[contains(text(),'Finance Available')]
+FB_WARRANTY_XPATH=//div[8]/div[1]/div[1]/div[3]/ul/li[4]/a
+
+Common_Popup_verfication_link=//*[@id='lightbox']/div[3]/div/h1
+
+POPUP_CLOSE_XPATH=//*[@id='lightbox']/div[2]
+
+#This is string used to verify pop up on futurebazaar trust
+STRING_TRUST_COD=What is Cash on Delivery?
+STRING_TRUST_RETURN=15 Days Easy Return
+STRING_TRUST_FIANANCE=Future Money Finance (Easy EMI)
+
+STRING_TRUST_WARRANTY=Manufacturer's Warranty
+
+
+#Link for Connect with us
+FACEBOOK_CONNECT=//div[3]/div[3]/a
+TWITTER_CONNECT=//div[3]/a[2]
+FB_BLOG_CONNECT_CSS=a.connect_bl
+FACEBOOK_LOGO=//*[@id='blueBar']/div[1]/div/a/i
+TWITTER_LOGO=//*[@id='logo']/a
+BLOG_LOGO=//*[@id='access']/a/img
+
+SECURITY_LOGO_XPATH=div[8]/div[1]/div[2]
+BRNAD_NAME_IMAGE_XPATH=//div[8]/div[1]/div[4]
+ 
+
+####  {{{{{{    ADD to CART Suite }}}}}}############
+# Add to cart suite in which the Price values from all the places will be checked and Access the cart page from 
+# different pages.
+
+ADD_TO_CART_PAGE_VERIFICATION_XPATH=.//*[@id='content']/div/div[2]/div[3]
+ 
+ADDTOCART_BUTTON_FIRST_XPATH=//div[2]/form/button
+REVIEWCART_TAB_VERIFICATION=//*[@id='mycart']
+CART_VERIFICATION_XPATH=//*[@id='content']/div/div[2]/div[3]
+CART_LOGO_XPATH=//*[@id='cart_tab']/div[1]
+ADD_MORE_ITEM_LINK=Add more items
+
+ITEM_AMOUNT_XPATH=.//*[@id='cart']/tbody/tr[2]/td[5]/span
+QTY_TEXT_BOX_XPATH=//select[contains(@id,'_qty')]
+UPDATE_LINK_CSS=button.linkButton.update_qty
+QTY_UPDATE=2
+
+#This is Cartcheck
+
+FIRST_ITEM_OFFER_PRICE_HP=.//*[@id='home']/div[2]/div[2]/ul/li[1]/div/div[2]/div[1]/span[1]/span[2]
+FIRST_ITEM_MARKET_PRCIE_HP=.//*[@id='home']/div[2]/div[2]/ul/li[1]/div/div[2]/div[1]/span[2]/span[2]
+
+VIEW_MY_CART_XAPTH=.//*[@id='view_mycart']
+
+#THIS ALL SHOULD BE SAME IN VALUE AND ONE IS ABOVE "item_amount_xpath
+# For Test case 4, Price, Market Price and product name in all the places of the cart and in the Home page. 
+
+## Cart drop down in home page.
+TOTAL_PAYABLE_CARTDD_XPATH=.//*[@id='header_show_cart']/div[2]/div
+RS_UNDER_ITEM_NAME_CARTDD_XPATH=.//*[@id='header_show_cart']/div[1]/div[1]/div[2]/span[1]
+ITEM_NAME_CARTDD_XPATH=.//*[@id='header_show_cart']/div[1]/div[1]/div[1]/a
+
+#Review your cart page Prices options.
+OFFER_PRICE_CARTPAGE_ITEM_XPATH=.//*[@id='cart']/tbody/tr[2]/td[3]/div
+PAYBLE_AMT_CARTPAGE_XPATH=.//*[@id='oPayableAmount']
+OFFER_PRICE_ODSUMMERY_XPATH=.//*[@id='content']/div/div[2]/div[1]/div/div[2]/table/tbody/tr[2]/td[2]/span
+PAYBLE_ODSUMMERY_XPATH=.//*[@id='orderPayableAmount']
+MARKET_PRICE_CARTPAGE_XAPTH=.//*[@id='cart']/tbody/tr[2]/td[3]/span
+MAREKET_PRICE_ODSUMMERY_XPATH=.//*[@id='content']/div/div[3]/div/div[1]/div[2]/table/tbody/tr[2]/td[2]/span
+
+ITEM_NAME_CART_PAGE_XPATH=.//*[@id='cart']/tbody/tr[2]/td[2]/span
+
+
+
+
+
+
+
+#READ MORE LINK UNDER ABOUT  US PAGE
+READ_MORE_LINK=Read More
+ABOUT_US_CULTURE_XPATH=//div[@id='content']/div/div[2]/ul/li[1]/div/a
+KNOW_MORE_TEAM_XPATH=//div[@id='content']/div/div/div/div/a
+KNOW_MORE_VALUE_XAPTH=//div[@id='content']/div/div/div/div[2]/a
+KNOW_MORE_PERK_XPATH=//div[@id='content']/div/div/div/div[3]/a
+KNOW_MORE_BLOG_XPATH=//div[@id='content']/div[1]/div[1]/div[4]/a
+
+
+String_Values=VALUES & CULTURES
+String_Perks=EMPLOYEE PERKS
+String_Team=TEAM
+PAGE_VERIFICATION_KNOW_MORE_LINK_XPATH=//*[@id='content']/div/div[1]/h1
+String_Jobs=JOBS
+String_Love=I LOVE WORKING HERE
+
+#Side link in Jos page 
+ABOUT_US_SIDE_LINK_XPATH=//*[@id='content']/div/div[2]/ul/li[1]/div/a
+VALUE_SIDELINK_XPATH=//*[@id='content']/div/div[2]/ul/li[2]/div/a
+TEAM_SIDELINK_XPATH=//*[@id='content']/div/div[2]/ul/li[3]/div/a
+JOBS_SIDELINK_XPATH=//*[@id='content']/div/div[2]/ul/li[4]/div/a
+PERKS_SIDELINK_XPATH=//*[@id='content']/div/div[2]/ul/li[5]/div/a
+LOVE_SIDELINK_XPATH=//*[@id='content']/div/div[2]/ul/li[6]/div/a
+BLOG_SIDELINK_XPATH=//*[@id='content']/div/div[2]/ul/li[7]/div/a
+
+Sitemap_Varifiaction_xpath=//*[@id='breadcrumb']/div
+
+###############################
+#These are the xpath for all the link used for Main Menu link verification
+
+# Xpath for the Main Link from the Category.
+HOME&LIVING_MAIN_LINK_XPATH=//li/a/div
+#Xpath For the Drop Down After mouser Hover to the Above Xpath.
+HOME&LIVING_DROPDOWN_BLOCK_XPATH=html/body/div[4]/div/ul/li[1]/div
+
+FASHION_MAIN_LINK_XPATH=//li[2]/a/div
+FASHION_DROPDOWN_BLOCK_XPATH=html/body/div[4]/div/ul/li[2]/div
+
+ELECTRONICS_MAIN_LINK_XPATH=//li[3]/a/div
+ELECTRONICS_DROPDOWN_BLOCK_XPATH=html/body/div[4]/div/ul/li[3]/div
+
+Supermarket_MAIN_LINK_XPATH=//li[4]/a/div
+Supermarket_DROPDOWN_BLOCK_XPATH=html/body/div[4]/div/ul/li[4]/div
+
+KidsAndBabies_MAIN_LINK_XPATH=//li[5]/a/div
+KidsAndBabies_DROPDOWN_BLOCK_XPATH=html/body/div[4]/div/ul/li[5]/div
+
+POPULAR_MAIN_LINK_XPATH=//div[@id='menu']/ul/li[2]/a/div
+POPULAR_DROPDOWN_BLOCK_XPATH=//*[@id='menu']/ul[1]/li[2]/div
+
+NEWARRIVALS_MAIN_LINK_XPATH=//div[@id='menu']/ul/li[3]/a/div
+NEWARRIVALS_DROPDOWN_BLOCK_XPATH=//*[@id='menu']/ul[1]/li[3]/div
+
+GIFTVOUCHERS_MAIN_LINK_XPATH=//li[6]/a/div
+NEWARRIVALS_DROPDOWN_BLOCK_XPATH=//*[@id='menu']/ul[1]/li[3]/div
+
+Gifts_MAIN_LINK_XPATH=.//*[@id='menu']/ul[1]/li[4]/a/div
+Gifts_DROPDOWN_BLOCK_XPATH=.//*[@id='menu']/ul[1]/li[4]/div
+  

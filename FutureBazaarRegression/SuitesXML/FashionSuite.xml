@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FashionTest" parallel="none">
+  <test name="FashionLink_DD" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.FashionTest.FashionTest_TC1"/>
+    </classes>
+  </test>
+  <test name="FashionLinkInner_DD" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.FashionTest.FashionTest_TC2"/>
+    </classes>
+  </test>
+</suite>

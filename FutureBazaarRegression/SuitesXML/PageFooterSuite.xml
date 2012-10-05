@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FuturebazaarFooterCheckSuite" parallel="none">
+ 
+ <test name="LINKFooterCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PageFooterTest.PageFooter_TC1"/>
+    </classes>
+  </test>
+ 
+ <test name="DealCategorylinkcheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PageFooterTest.PageFooter_TC2"/>
+    </classes>
+  </test>
+  
+ <test name="FBtrustlinksCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PageFooterTest.PageFooter_TC3"/>
+    </classes>
+  </test>
+  
+ <test name="ConnectWithUsLinksCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PageFooterTest.PageFooter_TC4"/>
+    </classes>
+  </test>
+  
+  <test name="AboutUSInnerlinkCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PageFooterTest.PageFooter_TC5"/>
+    </classes>
+  </test>
+  
+  <test name="NewAboutUSsidelinkcheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PageFooterTest.PageFooter_TC6"/>
+    </classes>
+  </test>
+  
+  <test name="SiteMApLinksCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PageFooterTest.PageFooter_TC7"/>
+    </classes>
+  </test>
+  <test name="sitemapMainLinksCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PageFooterTest.PageFooter_TC8"/>
+    </classes>
+  </test>
+ 
+  
+</suite>

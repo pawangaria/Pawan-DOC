@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ProductDescPageSuite" parallel="none">
+  
+  <test name="HomePageQuickViewTest" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PDPtest.ProductDescPage_TC1"/>
+    </classes>
+  </test>
+  
+  <test name="SearchPageQuickViewTest" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PDPtest.ProductDescPage_TC2"/>
+    </classes>
+  </test>
+  <test name="ProductBrandLinkTest" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PDPtest.ProductDescPage_TC3"/>
+    </classes>
+  </test>
+  
+  <test name="PDPpageNavigationTest" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PDPtest.ProductDescPage_TC4"/>
+    </classes>
+  </test>
+  
+  <test name="PDPpageSimilarProductsTest" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PDPtest.ProductDescPage_TC5"/>
+    </classes>
+  </test>
+  <test name="Reviewlinkcheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PDPtest.ProductDescPage_TC6"/>
+    </classes>
+  </test>
+  <test name="checkDelivery" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.PDPtest.ProductDescPage_TC7"/>
+    </classes>
+  </test>
+  
+  
+  
+</suite>

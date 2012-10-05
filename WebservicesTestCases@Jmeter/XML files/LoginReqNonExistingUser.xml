@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<loginRequest xmlns="http://www.fb.com/platform/auth/1.0.0">
+<!-- Non existing user to the futurebazaar -->
+<username>XXXXXXXXXXX@yopmail.com</username>
+<password>sujayXXX</password>
+</loginRequest>
+

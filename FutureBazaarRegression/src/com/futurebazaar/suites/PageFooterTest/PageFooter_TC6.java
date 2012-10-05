@@ -1,0 +1,207 @@
+package com.futurebazaar.suites.PageFooterTest;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.xmlbeans.impl.xb.xmlconfig.ConfigDocument.Config;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.SkipException;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+
+import com.futurebazaar.base.TestBase;
+import com.futurebazaar.common.methods.DebitCard;
+import com.futurebazaar.common.methods.PaymentPage;
+import com.futurebazaar.common.methods.Productpurchase;
+import com.futurebazaar.testing.util.ErrorUtil;
+import com.futurebazaar.testing.util.TestUtil;
+
+ public class PageFooter_TC6  extends PageFooterSuitebase{
+	
+	String runmodes[]=null;
+		static int count=-1;
+		static boolean skip=false;
+		static boolean fail=false;
+		//boolean pass=false;
+		static boolean istestpass=true;
+		//public static WebDriver driver = null;
+		
+		
+		@BeforeTest
+		public void checkTestSkip()
+		{
+			if(!TestUtil.isTestCaseRunnable(suitePageFooterXls,this.getClass().getSimpleName()))//suites XlSX name is passed by the object from base class. and name of the TestCase.
+				//Instead of passing TestCase name,using this "this.getClass().getSimpleName()" to get the name of the class as the name of the class is the TestCase name.
+			{
+				APP_LOGS.debug("skipping test PageFooter_TC6 (New AboutUS sidelink check) as the runmode is NO");
+				throw new SkipException("Skipping this testcase PageFooter_TC6 (New AboutUS side link check)as the runmode is NO for this Testcase");
+			
+			}
+			//Load the RunModes of the Test
+			runmodes=TestUtil.getDataSetRunmodes(suitePageFooterXls, this.getClass().getSimpleName());
+			
+		}
+		
+		//@Test(dataProvider="getTestData")
+		//data is provided by the XLS files 
+		// all the columns values should be passed to the TestCase function as parameters.
+		
+		//public void testA(String col1,String col2,String col3,String col4 ) throws InterruptedException
+		
+		@Test
+		public void NewAboutUSsidelinkcheck() throws InterruptedException
+		{
+			try{
+			count++;
+			//test the Runmode of the current Dataset
+			
+			if(!runmodes[count].equalsIgnoreCase("Y"))
+			{ 
+				skip=true;
+				APP_LOGS.debug("skipping a"+count);
+				throw new SkipException("Run mode for the test set data is Set to NO"+count); 
+			}
+			//**************************
+			//testing code which can be Selenium
+
+			
+			APP_LOGS.debug("****** Starting the  test case PageFooter_TC6 (New AboutUS sidelink check)");
+            //CLICKING ON THE SIDELINK FOR VERIFICATION		 
+		      wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(OR.getProperty("HOME_PAGE_VERIFICATION_ID"))));
+		      APP_LOGS.debug("Clicking on Jobs link");		
+			  driver.findElement(By.linkText(OR.getProperty("JOBS_LINK"))).click();
+		      wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(OR.getProperty("CONTENT_VERIFICATION_ABOUTLINK_XPATH"))));
+			  
+			 //Clicking on about us link
+			  driver.findElement(By.xpath(OR.getProperty("ABOUT_US_SIDE_LINK_XPATH"))).click();
+			  APP_LOGS.debug("Clicking on Aboout Us link on side panel");
+			  wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(OR.getProperty("CONTENT_VERIFICATION_ABOUTLINK_XPATH"))));
+			  Assert.assertTrue(driver.findElement(By.xpath(OR.getProperty("PAGE_VERIFICATION_COMMON_FOOTER_XPATH"))).getText().contains(OR.getProperty("String_Aboutus")));
+			  APP_LOGS.debug("ABOUT US side link is verified");
+			  driver.navigate().back();	
+			
+			  //Clicking on culture & values 
+			  driver.findElement(By.xpath(OR.getProperty("VALUE_SIDELINK_XPATH"))).click();
+			  APP_LOGS.debug("Clicking on culture & values Us link on side panel");
+			  wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(OR.getProperty("CONTENT_VERIFICATION_ABOUTLINK_XPATH"))));
+			  Assert.assertTrue(driver.findElement(By.xpath(OR.getProperty("PAGE_VERIFICATION_KNOW_MORE_LINK_XPATH"))).getText().contains(OR.getProperty("String_Values")));
+			  APP_LOGS.debug("CULTURE & VALUES side link is verified");
+			
+			 //clicking on Team link
+		      driver.findElement(By.xpath(OR.getProperty("TEAM_SIDELINK_XPATH"))).click();
+		      APP_LOGS.debug("Clicking on  Team link on side panel");
+		      wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(OR.getProperty("CONTENT_VERIFICATION_ABOUTLINK_XPATH"))));
+			  Assert.assertTrue(driver.findElement(By.xpath(OR.getProperty("PAGE_VERIFICATION_KNOW_MORE_LINK_XPATH"))).getText().contains(OR.getProperty("String_Team")));
+			  APP_LOGS.debug("TEAM side link is verified");
+			 //clikcing on Jobs link 
+		      driver.findElement(By.xpath(OR.getProperty("JOBS_SIDELINK_XPATH"))).click();
+		      APP_LOGS.debug("Clicking on Jobs link on side panel");
+		      wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(OR.getProperty("CONTENT_VERIFICATION_ABOUTLINK_XPATH"))));	 
+			  Assert.assertTrue(driver.findElement(By.xpath(OR.getProperty("PAGE_VERIFICATION_KNOW_MORE_LINK_XPATH"))).getText().contains(OR.getProperty("String_Jobs")));
+			  APP_LOGS.debug("JOBS side link is verified");
+			  //Clikcin on Jobs link
+			  driver.findElement(By.xpath(OR.getProperty("PERKS_SIDELINK_XPATH"))).click();
+			  APP_LOGS.debug("Clicking on Employee perks link on side panel");
+			  wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(OR.getProperty("CONTENT_VERIFICATION_ABOUTLINK_XPATH"))));	 
+			  Assert.assertTrue(driver.findElement(By.xpath(OR.getProperty("PAGE_VERIFICATION_KNOW_MORE_LINK_XPATH"))).getText().contains(OR.getProperty("String_Perks")));
+			  APP_LOGS.debug("EMPLOYEE PERKS side link is verified");
+			  //Clikcing on I love work here 
+			  driver.findElement(By.xpath(OR.getProperty("LOVE_SIDELINK_XPATH"))).click();
+			  APP_LOGS.debug("Clicking on I love work here link on side panel");
+			  wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(OR.getProperty("CONTENT_VERIFICATION_ABOUTLINK_XPATH"))));	 
+			  Assert.assertTrue(driver.findElement(By.xpath(OR.getProperty("PAGE_VERIFICATION_KNOW_MORE_LINK_XPATH"))).getText().contains(OR.getProperty("String_Love")));
+			  APP_LOGS.debug("I LOVE WORK HERE side link is verified");
+			  
+	        //Clikcing on blog link		  
+			  driver.findElement(By.xpath(OR.getProperty("BLOG_SIDELINK_XPATH"))).click();
+			  APP_LOGS.debug("Blog sidelink is clicked");  
+			  for(String handle : driver.getWindowHandles())
+				{        	
+			    	//APP_LOGS.debug(driver.getTitle());
+			    	driver.switchTo().window(handle);		
+				}
+			  
+			  String blog_url = driver.getCurrentUrl();
+		      Assert.assertTrue(blog_url.contains("http://blog.futurebazaar.com/"),"URL of blog is not matched");
+		      APP_LOGS.debug("Blog side link is verified");
+			  driver .close();
+		
+			   
+			  for(String handle1 : driver.getWindowHandles())
+					{
+				    	 driver.switchTo().window(handle1);
+					    // APP_LOGS.debug(handle1);
+					}
+				  
+				APP_LOGS.debug("*****PageFooter_TC6(New AboutUS sidelink check) test completed ******* ");
+		    	      	
+			//***********************************************
+			}catch(Throwable t)
+			{
+				APP_LOGS.debug("*******Execution for the PageFooter_TC6 (New AboutUS sidelink Check in Footer On HOme Page) is falied*****");
+				
+				APP_LOGS.error("ERROR :" +t.getMessage());
+				ErrorUtil.addVerificationFailure(t,this.getClass().getSimpleName());
+			    fail=true;
+			    return;
+
+			}
+			
+					}
+		
+		
+		
+		
+		
+		@AfterMethod
+		public void testdataReporter()
+		{//APP_LOGS.debug("value of skip"+count+skip);
+		//APP_LOGS.debug("test case fail"+count+fail);
+		//APP_LOGS.debug("test case a"+count);
+			if(skip)
+				TestUtil.reportDataSetResult(suitePageFooterXls,this.getClass().getSimpleName(),count+2,"Skip");
+			else if(fail)
+			{
+		    	TestUtil.reportDataSetResult(suitePageFooterXls,this.getClass().getSimpleName(),count+2,"Fail");
+		        istestpass=false; //checking for the TestCase is failed or passed
+			}
+		        else
+		       TestUtil.reportDataSetResult(suitePageFooterXls,this.getClass().getSimpleName(),count+2,"Pass");
+		   	   	        
+			skip=false;
+		   	fail=false;
+		    
+		}
+	    @AfterTest
+	    //Writing the final result for the TestCase whether it is passed of fail.
+	    public void testReporter()
+	    {
+	    	if(istestpass)
+	    	{
+	    		TestUtil.reportDataSetResult(suitePageFooterXls, "Test Cases", TestUtil.getRowNum(suitePageFooterXls,this.getClass().getSimpleName()), "PASS");
+	    	}else
+	    		TestUtil.reportDataSetResult(suitePageFooterXls, "Test Cases", TestUtil.getRowNum(suitePageFooterXls,this.getClass().getSimpleName()), "Fail");
+	    	
+	    }
+	    
+	    /*
+		@DataProvider
+		//Data provider gets the values from the XLS file for the TestCase which have Dataset for test.
+		public Object[][] getTestData()
+		{
+		     
+			return TestUtil.getData(suiteAxls,this.getClass().getSimpleName());
+		}*/
+	
+	
+
+}

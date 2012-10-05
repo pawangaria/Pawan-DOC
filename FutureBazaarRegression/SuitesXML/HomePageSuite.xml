@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HomePageTest" parallel="none">
+  <test name="TodaysDealCheck" preserve-order="true">
+    <classes>
+           <class name="com.futurebazaar.suites.HomePageTest.HomePage_TC1"/>
+    </classes>
+  </test>
+  <test name="ClearanceCheck" preserve-order="true">
+    <classes>
+           <class name="com.futurebazaar.suites.HomePageTest.HomePage_TC2"/>
+    </classes>
+  </test>
+  <test name="TopSellersCheck" preserve-order="true">
+    <classes>
+           <class name="com.futurebazaar.suites.HomePageTest.HomePage_TC3"/>
+    </classes>
+  </test>
+  <test name="NewArrivalCheck" preserve-order="true">
+    <classes>
+           <class name="com.futurebazaar.suites.HomePageTest.HomePage_TC4"/>
+    </classes>
+  </test>
+  <test name="OurPartnersCheck" preserve-order="true">
+    <classes>
+           <class name="com.futurebazaar.suites.HomePageTest.HomePage_TC5"/>
+    </classes>
+  </test>
+  <test name="CarouselImageCheck" preserve-order="true">
+    <classes>
+           <class name="com.futurebazaar.suites.HomePageTest.HomePage_TC6"/>
+    </classes>
+  </test>
+  
+  <test name="CarouselLinkCheckByClicking" preserve-order="true">
+    <classes>
+           <class name="com.futurebazaar.suites.HomePageTest.HomePage_TC7"/>
+    </classes>
+  </test>
+   <test name="BulkOrdersCheck" preserve-order="true">
+    <classes>
+           <class name="com.futurebazaar.suites.HomePageTest.HomePage_TC8"/>
+    </classes>
+  </test>
+</suite>

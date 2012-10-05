@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GiftVouchersSuite" parallel="none">
+  <test name="GiftVoucherOuterLinkTest" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.GiftVouchersTest.GiftVouchersTest_TC1"/>
+    </classes>
+  </test>
+  
+   <test name="GiftVoucherInnerLinkTest" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.GiftVouchersTest.GiftVouchersTest_TC2"/>
+    </classes>
+  </test>
+</suite>

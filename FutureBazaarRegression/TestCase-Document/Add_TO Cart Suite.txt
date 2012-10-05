@@ -1,0 +1,28 @@
+TEst case 1
+1.Clicking on the Home page.
+2.Taking the mouse hover to the First Item of the HOme Page
+3.Clicking on the Quick View for the Product.
+
+4.take the window handle to  work on the opened Quick View Window.
+5.Clicking on the Buy NOw Button On quick View Window.
+6.Verifying the Cart View Page is opened or not.
+
+#Going to the Cart review page by search Result Page.
+8.Searching a Product.
+9.Taking the mouse hover to the First Item of the Search REsult Page.
+10.Clicking on the Quick View for the Product on SRP.
+11.Getting the window handle to work on the opened Quick View Window.
+12.Clicking on the Buy NOw Button On quick View Window.
+13.Verifying the Cart View Page is opened or not from the Search Result Page.
+
+Test CASE =3(Item Clean up)
+1.Clicking on the Home page.
+2.clicking on the ADD to cart of the Product from the Home Page.
+3.Product is added to the Cart.
+4.So now going to the HOme PAge.
+5. Clicking on the MY SHOPPING_SACK link on home Page.
+6. getting the value of the items in the Cart from the cart item link.
+7.checking for the NO of items in Cart value.
+8. On the basis of the cart item NO, Removing the Cart Items.
+
+

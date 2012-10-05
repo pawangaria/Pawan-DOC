@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="20" lt="20" ts="1230767330352" s="true" lb="Login with Correct username and Password" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="423">
+  <assertionResult>
+    <name>XPath Assertion for login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="26" lt="26" ts="1230767330350" s="true" lb="postRequest" rc="200" rm="OK" tn="TEsting POst thread grop(  * should be removed in some time) 1-1" dt="text" by="423"/>
+<httpSample t="10" lt="10" ts="1230767330382" s="true" lb="LogoutRequest" rc="200" rm="OK" tn="TEsting POst thread grop(  * should be removed in some time) 1-1" dt="text" by="319"/>
+<httpSample t="14" lt="14" ts="1230767330378" s="true" lb="Login with Email username only (-&gt; Guest user Login )" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="429">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="14" lt="14" ts="1230767330396" s="true" lb="Login with mobile no username only (-&gt; Guest user Login )" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="428">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="13" lt="13" ts="1230767330414" s="true" lb="Login with username only with special characters (-&gt; Guest user Login )" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="429">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="8" lt="8" ts="1230767330430" s="true" lb="Login with Password only in XML" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="344">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="10" lt="10" ts="1230767330441" s="true" lb="Login with correct username and Wrong Password" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="344">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="9" lt="9" ts="1230767330455" s="true" lb="Login with non existing user(Non Existing user on futurebazaar)" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="344">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="8" lt="8" ts="1230767330467" s="true" lb="Login with the wrong xml set(Xml file with mistakes)" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="147">
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="23" lt="23" ts="1230767481955" s="true" lb="postRequest" rc="200" rm="OK" tn="TEsting POst thread grop(  * should be removed in some time) 1-1" dt="text" by="423"/>
+<httpSample t="27" lt="27" ts="1230767481957" s="true" lb="Login with Correct username and Password" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="423">
+  <assertionResult>
+    <name>XPath Assertion for login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="9" lt="9" ts="1230767481985" s="true" lb="LogoutRequest" rc="200" rm="OK" tn="TEsting POst thread grop(  * should be removed in some time) 1-1" dt="text" by="319"/>
+<httpSample t="13" lt="13" ts="1230767481989" s="true" lb="Login with Email username only (-&gt; Guest user Login )" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="429">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="15" lt="15" ts="1230767482005" s="true" lb="Login with mobile no username only (-&gt; Guest user Login )" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="428">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="15" lt="15" ts="1230767482023" s="true" lb="Login with username only with special characters (-&gt; Guest user Login )" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="429">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="7" lt="7" ts="1230767482041" s="true" lb="Login with Password only in XML" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="344">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="10" lt="10" ts="1230767482051" s="true" lb="Login with correct username and Wrong Password" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="344">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="10" lt="10" ts="1230767482064" s="true" lb="Login with non existing user(Non Existing user on futurebazaar)" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="344">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="7" lt="7" ts="1230767482077" s="true" lb="Login with the wrong xml set(Xml file with mistakes)" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="147">
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="28" lt="28" ts="1230767557201" s="true" lb="postRequest" rc="200" rm="OK" tn="TEsting POst thread grop(  * should be removed in some time) 1-1" dt="text" by="423"/>
+<httpSample t="27" lt="27" ts="1230767557202" s="true" lb="Login with Correct username and Password" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="423">
+  <assertionResult>
+    <name>XPath Assertion for login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="10" lt="10" ts="1230767557237" s="true" lb="LogoutRequest" rc="200" rm="OK" tn="TEsting POst thread grop(  * should be removed in some time) 1-1" dt="text" by="319"/>
+<httpSample t="13" lt="13" ts="1230767557236" s="true" lb="Login with Email username only (-&gt; Guest user Login )" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="429">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="14" lt="14" ts="1230767557252" s="true" lb="Login with mobile no username only (-&gt; Guest user Login )" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="428">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="13" lt="13" ts="1230767557269" s="true" lb="Login with username only with special characters (-&gt; Guest user Login )" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="429">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="8" lt="8" ts="1230767557286" s="true" lb="Login with Password only in XML" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="344">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="10" lt="10" ts="1230767557297" s="true" lb="Login with correct username and Wrong Password" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="344">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="9" lt="9" ts="1230767557311" s="true" lb="Login with non existing user(Non Existing user on futurebazaar)" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="344">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="6" lt="6" ts="1230767557324" s="true" lb="Login with the wrong xml set(Xml file with mistakes)" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="147">
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="27" lt="27" ts="1230768004397" s="true" lb="postRequest" rc="200" rm="OK" tn="TEsting POst thread grop(  * should be removed in some time) 1-1" dt="text" by="423"/>
+<httpSample t="25" lt="25" ts="1230768004399" s="true" lb="Login with Correct username and Password" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="423">
+  <assertionResult>
+    <name>XPath Assertion for login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="13" lt="13" ts="1230768004432" s="true" lb="LogoutRequest" rc="200" rm="OK" tn="TEsting POst thread grop(  * should be removed in some time) 1-1" dt="text" by="319"/>
+<httpSample t="15" lt="15" ts="1230768004430" s="true" lb="Login with Email username only (-&gt; Guest user Login )" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="429">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="14" lt="14" ts="1230768004448" s="true" lb="Login with mobile no username only (-&gt; Guest user Login )" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="428">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="14" lt="13" ts="1230768004465" s="true" lb="Login with username only with special characters (-&gt; Guest user Login )" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="429">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="7" lt="7" ts="1230768004482" s="true" lb="Login with Password only in XML" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="344">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="10" lt="10" ts="1230768004492" s="true" lb="Login with correct username and Wrong Password" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="344">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="9" lt="9" ts="1230768004506" s="true" lb="Login with non existing user(Non Existing user on futurebazaar)" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="344">
+  <assertionResult>
+    <name>XPath Assertion for Guest user login status element</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="5" lt="5" ts="1230768004519" s="true" lb="Login with the wrong xml set(Xml file with mistakes)" rc="200" rm="OK" tn="Login and log out Test case&apos;s 2-1" dt="text" by="147">
+  <assertionResult>
+    <name>Response Assertion for checkingGUEST_LOGIN_SUCCESS response</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion for checking response code </name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+</testResults>

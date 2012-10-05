@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HomeAndLivingTest" parallel="none">
+  <test name="HomeAndLiving_DDCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.HomeAndLivingTest.HomeAndLiving_TC1"/>
+    </classes>
+  </test>
+  
+   <test name="HLInner_DD" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.HomeAndLivingTest.HomeAndLiving_TC2"/>
+    </classes>
+  </test>
+</suite>

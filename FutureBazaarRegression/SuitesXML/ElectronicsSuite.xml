@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ElectronicsSuite" parallel="none">
+  <test name="ElectronicsLinkDDCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.ElectronicsTest.Electronics_TC1"/>
+    </classes>
+  </test>
+  
+  <test name="ElectronicsInnerLinkDDCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.ElectronicsTest.Electronics_TC2"/>
+    </classes>
+  </test>
+</suite>

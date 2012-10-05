@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SanitySuite">
+
+  <test name="BuildReleaseSanityTest" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.sanity.SanityFutureBazaar"/>
+    <!-- <methods>
+      <exclude name="signUpCheck"/>
+      <exclude name="homePageCheck"/>
+      <include name="productPurchase"/>
+      <exclude name="facebookLoginCheck"/>
+      </methods>
+      </class> -->
+    </classes>
+  </test>
+</suite>

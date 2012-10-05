@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyAccountTest" parallel="none">
+  
+  <test name="AllLinkOptionCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.MyAccountTest.MyAccount_TC1"/>
+    </classes>
+  </test>
+  
+   <test name="AllMyAccountPageOptionCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.MyAccountTest.MyAccount_TC2"/>
+    </classes>
+  </test>
+  
+   <test name="TrackOrderOptionCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.MyAccountTest.MyAccount_TC3"/>
+    </classes>
+  </test>
+  
+    <test name="NeverMissADealCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.MyAccountTest.MyAccount_TC4"/>
+    </classes>
+  </test>
+   <test name="AddtoWishlist" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.MyAccountTest.MyAccount_TC5"/>
+    </classes>
+  </test>
+<!--  <test name="QuittingTheDriver" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.MyAccountTest.SuitedriverQuit"/>
+    </classes>
+  </test> -->
+  
+</suite>
+

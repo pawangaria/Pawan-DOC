@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AddTOCArtSuite" parallel="none">
+ 
+ 
+ <test name="QuickViewAddtoCartCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.AddToCartTest.AddToCart_TC1"/>
+    </classes>
+  </test>
+   <test name="UpdateINAddToCart" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.AddToCartTest.AddToCart_TC2"/>
+    </classes>
+  </test>
+ 
+ <test name="ItemCartCleanUPCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.AddToCartTest.AddToCart_TC3"/>
+    </classes>
+  </test>
+  <test name="priceVerificationINAddtoCart" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.AddToCartTest.AddToCart_TC4"/>
+    </classes>
+  </test>
+  <test name="PaybackCODLinkcheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.AddToCartTest.AddToCart_TC5"/>
+    </classes>
+  </test>
+  
+</suite>

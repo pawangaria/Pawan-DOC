@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="URlCheckSuite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="com.futurebazaar.sanity.UrlChecks" preserve-order="true">
+       <methods name="PFutureBazaarCheck"/>   
+       <methods name="BulkFutureBazaarCheck"/>
+        <methods name="BigBazaarCheck"/>
+         <methods name="mFuturebazaarCheck"/>
+         <methods name="ItzCashFutureBazaarCheck"/>
+         <methods name="AdminSupportFutureBazaarCheck"/>
+         
+       </class>
+    </classes>
+  </test>
+</suite>

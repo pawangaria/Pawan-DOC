@@ -1,0 +1,7 @@
+#Steps to add the new test suite in the project.
+
+a.Create the xls file inside the XLS package  
+b.Add Testcases and testdatasheets in the xls file.
+*c.Got to the TestBase.java file and initalize the xls file by adding the variable like others and use that variable in other files to access data from the sheet.   
+
+Steps to add a new Test case 

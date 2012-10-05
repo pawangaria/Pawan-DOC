@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<loginRequest xmlns="http://www.fb.com/platform/auth/1.0.0">
+<!-- In this wrong email format is provided on the user name as @ and .is missing in the username field -->
+<username>sujay24yopmailcom</username>
+<password>sujay</password>
+</loginRequest>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoginLogOutSuite" parallel="none">
+ <!--   <test name="UserLogInTest" preserve-order="true">
+    <classes>
+      <class name="com.Fb.TestCase.LogInLogOut.GoToUserLoginPage"/>
+    </classes>
+  </test>
+  <test name="ForgotPasswordLinkTest" preserve-order="true">
+    <classes>
+      <class name="com.Fb.TestCase.LogInLogOut.CheckForgotPasswordLink"/>
+    </classes>  
+  </test> -->
+   <test name="CheckSignUPSignInTAB" preserve-order="true">
+    <classes>
+      <class name="com.Fb.TestCase.LogInLogOut.CheckSignInSignUpAndCloseTabLinks"/>
+    </classes>
+  </test>
+</suite>

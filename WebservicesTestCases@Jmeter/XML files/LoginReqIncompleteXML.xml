@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<loginRequest xmlns="http://www.fb.com/platform/auth/1.0.0">
+<!-- xml file having no element to send on the request -->
+</loginRequest>

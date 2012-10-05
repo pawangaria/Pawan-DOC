@@ -1,0 +1,18 @@
+Login with Correct username(Email) and Password in xml
+Login with Password only
+Login with Correct username(Mobile No) and Password in xml
+login with correct username and Wrong Password
+login with non existing user
+login with the wrong xml set
+login with incomplete xml (??? doubt about the result which is getting )
+login with incorrect Email username format like @ or . is missing 
+login with correct username and Partial password.
+login with uername having special characters
+login with password having special characters
+--->Guest login
+login with Email username only (-> Guest user Login )
+login with mobile no username only (-> Guest user Login )
+login with username only with special characters (-> Guest user Login )
+login with incorrect Email username format (-> Guest user Login )
+login with incorrect mobile no username format (-> Guest user Login )
+gmail fraud scenario

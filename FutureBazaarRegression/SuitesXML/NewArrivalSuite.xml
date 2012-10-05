@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NewArrivalSuite" parallel="none">
+  <test name="NewArrivalsTestLinkDDCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.NewArrivalsTest.NewArrivals_TC1"/>
+    </classes>
+  </test>
+  
+   <test name="NewArrivalsInnerLinkDDCheck" preserve-order="true">
+    <classes>
+      <class name="com.futurebazaar.suites.NewArrivalsTest.NewArrivals_TC2"/>
+    </classes>
+  </test>
+</suite>
